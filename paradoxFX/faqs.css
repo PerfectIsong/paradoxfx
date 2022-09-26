@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+    
+}
+body{
+    background-image: url(./background.png);
+    /* background-image: linear-gradient( to top right, rgb(111, 159, 111),#fff, #fff); */
+    height: 100%;
+    
+}
+.cont{
+    color: #fff;
+    padding: 0 3%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px 30px 6px;
+}
+.logo{
+    width: 115px;
+    cursor: pointer;
+    margin-left: 3%;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 3%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 9px 10px;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+nav li a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.btn1{
+    padding: 7px 17px;
+    border: none;
+    border-radius: 11px;
+    background-color: #4a8802;
+    color: #fff;
+    cursor: pointer;
+}
+.btn2{
+    padding: 7px 10px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 11px;
+    background-color: #4a8802;
+    color: #fff;
+    cursor: pointer;
+}
+.headtalk{
+    display: flex;
+    justify-content: space-around;
+}
+.headtalk img{
+    width: 400px;
+    margin-right: 10%;
+}
+.talk{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.talk h1{
+    color: #4a8802;
+}
+.talk p{
+    margin-top: 10px;
+    color: #000;
+    width: 70%;
+}
+.mother{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    align-items:center;
+}
+.question{
+    margin-left: 10%;
+}
+.question h1{
+    color: #4a8802;
+}
+.question p{
+    margin-top: 5%;
+    color: #000;
+    width: 55%;
+    line-height: 1.4rem;
+}
+.input{
+    margin-right: 20%;
+}
+.accordion-container{
+    background-color: #eeeeee;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top:25px;
+    font-size:0.8rem;
+    overflow: hidden;
+}
+.accordion{
+    background-color: #D9D9D9;
+     padding:2% 15%; 
+    width:120%;
+    z-index:51;
+    color:white;
+    text-align: center;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.accordion h4{
+    color:rgba(0, 0, 0, 0.5);
+}
+.accordion-container p{
+    max-height: 1px;
+    overflow:hidden;
+    line-height: 1.5;
+    padding:1px 2px;
+    text-align: center;
+    width:80%;
+}
+.active{
+    max-height:150px;
+}
+.fa-arrow-up{
+    color:green;
+}
+/* .input1{
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 5px 7px;
+}
+.input2{
+    border-radius: 20px;
+    margin-top: 5%;
+    padding: 5px 7px;
+    outline: none;
+    border: none;
+}
+.input3{
+    border-radius: 20px;
+    margin-top: 5%;
+    padding: 5px 7px;
+    outline: none;
+    border: none;
+}
+.input4{
+    margin-top: 5%;
+    border-radius: 20px;
+    outline: none;
+    padding: 5px 7px;
+    border: none;
+}
+.input5{
+    margin-top: 5%;
+    padding: 2% 5%;
+    border: none;
+    border-radius: 20px;
+    background-color: #4a8802;
+    outline: none;
+    color: #000;
+    margin-left: 69%;
+} */
+
+footer{
+    background-color: #122200;
+    /* position: relative; */
+    color: #fff;
+    padding: 30px; 
+    /* position: absolute; */
+    width: 100%;
+    margin-top: 6%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+}
+.footer1 h1{
+    font-weight: lighter;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+}
+.footer1 span{
+    font-size: 0.8rem;
+    color: #adaeb3;
+}
+
+.footer2 h1{
+    font-weight: lighter;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+}
+.footer2 span{
+    font-size: 0.7rem;
+    color: #adaeb3;
+}
+
+.footer3 h1{
+    font-weight: lighter;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+}
+.footer3 span{
+    font-size: 0.7rem;
+    color: #adaeb3;
+}
+
+.footer4 h1{
+    font-weight: lighter;
+    margin-top: 47%;
+    font-size: 0.7rem;
+}
+
+.footer5 h1{
+    font-weight: lighter;
+    margin-top: 43%;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.footer4 img{
+    width: 29px;
+    margin-left: 11%;
+}
+.footer5 img{
+    width: 29px;
+    margin-right: 6px;
+}   
+
+.fotter01{
+    margin-bottom: 15%;
+}
+.fotter02{
+    margin-bottom: 15%;
+}
+.fotter03{
+    margin-bottom: 15%;
+}
+.lastfooter{
+    padding: 1%;
+    color: #e9e9e9;
+    font-size: 0.6rem;
+    background-color: #0C1501;
+    padding-left: 6%;
+}
+.lastfooter span{
+    margin-left: 70%;
+}
+.lastfooter span{
+    margin-left: 70%;
+}

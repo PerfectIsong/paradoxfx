@@ -1,0 +1,386 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    
+}
+body{
+    background-image: linear-gradient( to top right, rgb(111, 159, 111),#fff, #fff);
+    min-height: 100%;
+}
+.cont{
+    color: #fff;
+    padding: 0 3%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px 30px 10px;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 100px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 9px 10px;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+nav li a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.btn1{
+    padding: 7px 17px;
+    border: none;
+    border-radius: 11px;
+    background-color: rgb(11, 74, 11);
+    color: #fff;
+    cursor: pointer;
+}
+.btn2{
+    padding: 7px 10px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 11px;
+    background-color: rgb(11, 74, 11);
+    color: #fff;
+    cursor: pointer;
+}
+.flex{
+    margin: 7rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex img{
+    width: 450px;
+}
+.body h1{
+    margin-top: 5rem;
+    font-size: 2.8rem;
+    color: rgb(28, 125, 28);
+}
+.body p{
+    color:#000 ;
+    padding-top: 0.9rem;
+}
+.body button{
+    margin-top: 2rem;
+    padding: 7px 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgb(208, 208, 21);
+}    
+.landing{
+    margin-top: 10rem;
+    text-align: center;
+}
+.landing p{
+    color: #000;
+    font-size: 1.2rem;
+}
+.middle{
+    margin-left: 10rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.middle img{
+    margin-top: 12rem ;
+    margin-right: 7rem;
+    width: 200px;
+}
+.middle h1{
+    margin-top: 5rem ;
+    font-size: 3rem;
+    color: rgb(28, 125, 28);
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5rem;
+    color: #000000;
+    justify-content: space-around;
+}
+.grid1{
+    margin-top: 3rem;
+    display: flex;
+}
+.grid1 img{
+    width: 80px;
+    padding-right: 10px;
+}
+.grid1 span{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+
+
+
+.grid2{
+    margin-top: 3rem;
+    display: flex;
+}
+.grid2 img{
+    width: 90px;
+    padding-right: 10px;
+}
+.grid2 span{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+
+.grid3{
+    margin-top: 3rem;
+    display: flex;
+}
+.grid3 img{
+    width: 80px;
+    padding-right: 10px;
+}
+.grid3 span{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+
+.grid4{
+    margin-top: 3rem;
+    display: flex;
+}
+.grid4 img{
+    width: 80px;
+    padding-right: 10px;
+}
+.grid4 span{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+
+.grid5{
+    margin-top: 3rem;
+    display: flex;
+}
+.grid5 img{
+    width: 80px;
+    padding-right: 10px;
+}
+.grid5 span{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.grid6{
+    margin-top: 3rem;
+    display: flex;
+}
+.grid6 img{
+    width: 80px;
+    padding-right: 10px;
+}
+.grid6 span{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.flexmiddle{
+    margin: 4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexmiddle img{
+    height: 65vh;
+    width:370px;
+    border-radius: 25px;
+}
+.flexmiddle{
+    margin-top: 15rem;
+}
+/* .bodymiddle{ */
+    /* margin-bottom: 10rem; */
+/* } */
+.bodymiddle p{
+    color: #000;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+.bodymiddle h1{
+    padding-bottom: 7px;
+    font-size: 4rem;
+    color:rgb(28, 125, 28);
+}
+.lastgrid{
+    display: flex;
+    font-size: 1.2rem;
+    color: rgb(48, 45, 45);
+    justify-content: space-around;
+    margin-left: 4rem;
+}
+.endgrid{
+    margin-top: 10rem;
+    color: #000;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.end1{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.end1 img{
+    width: 80px;
+    padding-right: 10px;
+}
+.end1 span{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.end2{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.end2 img{
+    width: 80px;
+    padding-right: 10px;
+}
+.end2 span{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+/* end3 */
+.end3{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    margin-left: 17rem;
+    margin-top: 6rem;
+}
+.end3 img{
+    width: 80px;
+    padding-right: 10px;
+}
+.end3 span{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.centergrid{
+    margin-top: 17rem;
+    text-align: center;
+}
+.centergrid h1{
+    color:rgb(28, 125, 28);
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+}
+.centergrid p{
+    color: #000;
+}
+.search{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+form{
+    width: 600px;
+    height:40px;
+    display: flex;
+}
+form input{
+    background-color: rgba(165, 156, 156, 0.4);
+    flex: 1;
+    text-align: center;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+}
+form button{
+    background-color:#1c7d1c;
+    color: #fff;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px ;
+}
+.checkbox{
+    text-align: center;
+    color: #000;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 70px; 
+    position: absolute;
+    width: 100%;
+    margin-top: 20rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+}
+.footer1 h1{
+    font-weight: bolder;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.footer2 h1{
+    font-weight: bolder;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.footer3 h1{
+    font-weight: bolder;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.footer4 h1{
+    font-weight: bolder;
+    margin-bottom: 7px;
+    font-size: 1rem;
+}
+
+.footer5 h1{
+    font-weight: bolder;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.footer4 img{
+    width: 19px;
+}
+.footer5 img{
+    width: 17px;
+}
+.copy{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}

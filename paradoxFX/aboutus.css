@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+body{
+    background-image: url(./background.png);
+    min-height: 100%;
+}
+.cont{
+    color: #fff;
+    padding: 0 3%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px 30px 6px;
+}
+.logo{
+    width: 115px;
+    cursor: pointer;
+    margin-left: 3%;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 3%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 9px 10px;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+nav li a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.btn1{
+    padding: 7px 17px;
+    border: none;
+    border-radius: 11px;
+    background-color: #4a8802;
+    color: #fff;
+    cursor: pointer;
+}
+.btn2{
+    padding: 7px 10px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 11px;
+    background-color: #4a8802;
+    color: #fff;
+    cursor: pointer;
+}
+
+.who h1{
+    color:#4a8802;
+    font-size: 2.5rem;
+}
+.who p{
+    color: #000;
+    line-height: 1.8rem;
+    margin-top: 3%;
+    font-size: 0.9rem;
+}
+.whotag{
+    width:93.65%;
+}
+.who{
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6%;
+}
+.who img{
+    width: 460px;
+    margin-top: -10%;
+    margin-right: 1%;
+}
+.victor{
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+.victor img{
+    margin-left: 7%;
+    height: 70vh;
+}
+.victor p{
+    margin-top: 17%;
+    color: #000;
+    line-height: 2.1rem;
+}
+.victortag{
+    width: 57%;
+}
+.name{
+    margin-left: 10%;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    line-height: 0.4rem;
+}
+.name span{
+    color: #000;
+    font-size: 0.8rem;
+    margin-left: 8%;
+}
+.money img{
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 26%;
+    width: 500px;
+}
+.aboutus{
+    align-items: center;
+     margin-left: 32%;
+    margin-top: 15%;
+    color: #000;
+    display: block;
+}
+.aboutus span{
+    font-weight: bolder;
+}
+.about1{
+    display: flex;
+    margin-bottom: 10%;
+}
+.about1 img{
+    width: 65px;
+    height: 13vh;
+    margin-right: 3%;
+}
+.about1 p{
+    font-size: small;
+}
+
+
+.about2{
+    display: flex;
+    margin-top: 10%;
+}
+.about2 img{
+    width: 65px;
+    height: 13vh;
+    margin-right: 3%;
+}
+.about2 p{
+    font-size: small;
+}
+
+.about3{
+    display: flex;
+    margin-top: 10%;
+}
+.about3 img{
+    width: 65px;
+    height: 13vh;
+    margin-right: 3%;
+}
+.about3 p{
+    font-size: small;
+}
+
+.partners{
+    margin-bottom: 10%;
+    margin-top: 20%;
+    text-align: center;
+}
+.partners img{
+    width: 200px;
+}
+.partners h1{
+    margin-bottom: 2.3%;
+    color: #4a8802;
+}
+footer{
+    background-color: #122200;
+    /* position: relative; */
+    color: #fff;
+    padding: 30px; 
+    /* position: absolute; */
+    width: 100%;
+    margin-top: 6%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+}
+.footer1 h1{
+    font-weight: lighter;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+}
+.footer1 span{
+    font-size: 0.8rem;
+    color: #adaeb3;
+}
+
+.footer2 h1{
+    font-weight: lighter;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+}
+.footer2 span{
+    font-size: 0.7rem;
+    color: #adaeb3;
+}
+
+.footer3 h1{
+    font-weight: lighter;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+}
+.footer3 span{
+    font-size: 0.7rem;
+    color: #adaeb3;
+}
+
+.footer4 h1{
+    font-weight: lighter;
+    margin-top: 47%;
+    font-size: 0.7rem;
+}
+
+.footer5 h1{
+    font-weight: lighter;
+    margin-top: 43%;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.footer4 img{
+    width: 29px;
+    margin-left: 11%;
+}
+.footer5 img{
+    width: 29px;
+    margin-right: 6px;
+}   
+.fotter01{
+    margin-bottom: 15%;
+}
+.fotter02{
+    margin-bottom: 15%;
+}
+.fotter03{
+    margin-bottom: 15%;
+}
+.lastfooter{
+    padding: 1%;
+    color: #e9e9e9;
+    font-size: 0.6rem;
+    background-color: #0C1501;
+    padding-left: 6%;
+}
+.lastfooter span{
+    margin-left: 70%;
+}
